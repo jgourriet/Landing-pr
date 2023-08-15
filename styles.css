@@ -238,6 +238,7 @@
     height: 100vh;
     color: #fff;
     min-height: 500px;
+    background-image: url(https://res.cloudinary.com/dvpasesj3/image/upload/v1692140628/_DSC3685_naof1s.jpg);
     background-size: cover;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
@@ -896,6 +897,12 @@
     }
   }
   @media (max-width: 768px) {
+    .home {
+      background-attachment: scroll; /* Cambia a scroll para permitir desplazamiento */
+      background-position: center; /* Ajusta la posición de la imagen */
+      height: auto; /* Ajusta la altura según el contenido */
+      padding: 20px; /* Agrega un poco de espacio alrededor en pantallas pequeñas */
+  }
     .menu-btn {
       right: 30px;
     }
